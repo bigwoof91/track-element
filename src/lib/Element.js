@@ -1,6 +1,6 @@
 // todo: create a counter for ouput
 
-export default class Elements {
+export default class Element {
   constructor ({ elementIDs } = null) {
       if (!Array.isArray(elementIDs)){
         throw new Error("element id's should be passed in an array");
