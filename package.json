@@ -1,0 +1,22 @@
+{
+  "name": "@huvver/track-element",
+  "version": "0.0.1",
+  "description": "Capture when an element is hovered",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigwoof91/track-element.git"
+  },
+  "keywords": [
+    "hover"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigwoof91/track-element/issues"
+  },
+  "homepage": "https://github.com/bigwoof91/track-element#readme"
+}
