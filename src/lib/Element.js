@@ -1,5 +1,3 @@
-// todo: create a counter for ouput
-
 export default class Element {
   constructor ({ elementIDs } = null) {
       if (!Array.isArray(elementIDs)){
@@ -19,14 +17,10 @@ export default class Element {
   };
 
   logElementHovered(e) {
-    // const idCounter = e.target.id + 'Counter';
-    // const currentCount = Number(this[idCounter]);
-    // this[idCounter] = currentCount + 1;
-
     console.log(e.screenX, e.screenY, e.target.id+' element hovered!');
   };
 }
 
 // for testing on index.html
-// window.el = Elements
+// window.el = Element
 
